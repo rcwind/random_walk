@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="random_walk" type="random_walk_node" respawn="false" name="random_walk_node" output="screen">
+  </node>
+
+</launch>
