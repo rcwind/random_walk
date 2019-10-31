@@ -1,0 +1,4 @@
+auto wlan12
+iface wlan12 inet dhcp                                                                                                                        
+pre-up wpa_supplicant -B w -Dnl80211 -iwlan12 -c/etc/wpa_supplicant/wpa_supplicant.conf                                                       
+post-down killall -q wpa_supplicant                                                                                                          
