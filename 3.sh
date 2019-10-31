@@ -1,2 +1,2 @@
 # !/bin/sh
-roslaunch turtlebot_rviz_launchers view_navigation.launch
+rosrun robot_navigation move_base_square
